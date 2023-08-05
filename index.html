@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>module-test-1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <!-- =======================================================    BODY    ====================================== -->
+  <body>
+    <!----------------------------------------- navigation bar -------------------------------->
+    <nav class="navbar d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <a href="#"><img src="./assets/logo (2).svg" /></a>
+        <img src="./assets/Codevo.svg" />
+      </div>
+      <div class="nav-items">
+        <p class="home px-3">Home</p>
+        <p class="search item px-3">Shop</p>
+        <p class="search item px-3">Pages</p>
+        <p class="about item px-3">About Us</p>
+        <p class="lookup item px-3">Lookups</p>
+      </div>
+      <div class="nav-icons">
+        <img class="search px-3" src="./assets/Search.svg" />
+        <img class="profile px-3" src="./assets/User.svg" />
+        <img class="notification px-3" src="./assets/Notification.svg" />
+      </div>
+    </nav>
+    <!-- =======================================================    MAIN    ====================================== -->
+    <main>
+        <!----------------------------------------- first section ---------------------------------->
+      <section>
+        <div class="my-display">
+          <div class="left">
+            <div class="text">
+              <p class="text-1">Limited Time Only For Winter</p>
+              <img class="fashion" src="./assets/fashion.svg" />
+              <p class="text-2">LOOK YOUR BEST ON YOUR BEST DAY</p>
+            </div>
+            <div>
+              <button class="butn" type="button">Explore Now!</button>
+            </div>
+          </div>
+          <div class="cart-girl">
+            <img class="cart-girl-img" src="./assets/cart-girl.svg " height="590px" alt="cart-girl" />
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- collection section ------------------------------------->
+      <section>
+        <div class="headings">
+            <p class="coll">COLLECTION</p>
+            <img class="ex-img" src="./assets/Exclude.svg" alt="exclude-img"/>
+            <p class="top-coll">Our Top Collection</p>
+        </div>
+        <div class="categories">
+            <button class="cat-btn jewe" type="button">Jewellery</button>
+            <button class="cat-btn acc" type="button">Accessories</button>
+            <button class="cat-btn dress" type="button">Dresses</button>
+            <button class="cat-btn footware" type="button">Footwear</button>
+        </div>
+        <div class="card-div mt-5 d-flex justify-content-between flex-wrap">
+            <div class="card my-card1" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/hoodie.svg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><strong>Nike Air Men’s Hoodie - Imported
+                            Hoodie Red </strong></p>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card1" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/dress.svg" class="card-img-top" alt="...">
+                    <img id="favicon" src="./assets/Favorties Icon.svg" alt="Favorties">
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><strong>Nike Air Men’s Hoodie - Imported
+                            Hoodie Red </strong></p>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card1" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/watch.svg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <p class="card-text"><strong>Nike Air Men’s Hoodie - Imported
+                            Hoodie Red </strong></p>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------------- categories ------------------------------------------->
+    <section class="container w-100 mt-5">
+        <div class="collection align-content-center">
+            <div class="align-text-center">New Arrivals</div>
+            <img src="./assets/Exclude.svg" alt="bottom-border">
+            <h5 class="mt-3"><strong>Latest Collections</strong></h5>
+        </div>
+        <div class="arrival d-flex mt-5">
+            <div class="left d-flex flex-column">
+                <div class="image1">
+                    <img src="./assets/red-poster.svg" alt="Trend">
+                </div>
+                <div class="image1">
+                    <img src="./assets/Poster 2.svg" alt="Trend">
+                </div>
+            </div>
+            <div class="right">
+                <img class="w-100" src="./assets/pink-poster.svg" alt="Trend">
+            </div>
+        </div>
+    </section>
+    <section class="container w-100 mt-5">
+        <div class="collection">
+            <div class="category">CATEGORIES</div>
+            <img  src="./assets/Exclude.svg" alt="bottom-border">
+            <h5><strong>2021 Latest Collections</strong></h5>
+        </div>
+        <div class="card-div mt-5 d-flex justify-content-between flex-wrap px-auto">
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/hoodie.svg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/googals.svg" class="card-img-top" alt="Picture">
+                    <img id="favicon2" src="./assets/Favorties Icon.svg" alt="Favorties">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                        <a href="#"><button class="btn-rs rs-text text-align-center">ADD TO CART</button></a>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$80</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/shirt-summers.svg" class="card-img-top" alt="Picture">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/watch.svg" class="card-img-top" alt="Picture">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/headphones.svg" class="card-img-top" alt="Picture">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/hand-bag.svg" class="card-img-top" alt="Picture">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/shoe.svg" class="card-img-top" alt="Picture">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>
+            <div class="card my-card2" style="width: 18rem;">
+                <div class="image">
+                    <img src="./assets/sandel.svg" class="card-img-top" alt="Picture">
+                </div>
+                <div class="card-body">
+                    <div class="my-card-title d-flex align-content-center">
+                        <p class="card-text2"><strong>Nike Air Men’s Hoodie - Imported Hoodie Red </strong></p>
+                    </div>
+                    <div class="row-3 d-flex justify-content-between">
+                        <a href="#" class="btn-rs2">$150</a>
+                        <img src="./assets/Rating.svg" alt="Rating">
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <!--------------------------------------------------- footer area ------------------------------------------>
+    <section class="color w-100">
+            <div class="my-footer d-flex mx-auto w-100">
+                <div class="mycol1 d-flex flex-column">
+                    <div class="btlogo d-flex">
+                        <img src="./assets/logo (2).svg" alt="Logo">
+                        <p class="brandName">Codevo</p>
+                    </div>
+                    <p id="bttext">Lorem ispum is a placeholder text 
+                        commonly used as a free text.</p>
+                    <div class="socials">
+                        <img src="./assets/Social Media Buttons.svg" alt="">
+                    </div>
+                    <p class="bttext2">Copyrights 2021</p>
+                     <p class="bttext2"> @Iamabdulqadeer01</p>
+                </div>
+                <div class="mycol-right d-flex ">
+                    <div class="mycol2">
+                        <table class="table-1">
+                            <thead>
+                                <th>Product</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Download</td>
+                                </tr>
+                                <tr>
+                                    <td>Pricing</td>
+                                </tr>
+                                <tr>
+                                    <td>Location</td>
+                                </tr>
+                                <tr>
+                                    <td>Server</td>
+                                </tr>
+                                <tr>
+                                    <td>Coutries</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mycol2">
+                        <table class="table-1">
+                            <thead>
+                                <th>Category</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Men</td>
+                                </tr>
+                                <tr>
+                                    <td>Women</td>
+                                </tr>
+                                <tr>
+                                    <td>Kids</td>
+                                </tr>
+                                <tr>
+                                    <td>Best Sellers</td>
+                                </tr>
+                                <tr>
+                                    <td>New Arrivals</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mycol2">
+                        <table class="table-1">
+                            <thead>
+                                <th>My Account</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>My Account</td>
+                                </tr>
+                                <tr>
+                                    <td>Discount</td>
+                                </tr>
+                                <tr>
+                                    <td>Returns</td>
+                                </tr>
+                                <tr>
+                                    <td>Order History</td>
+                                </tr>
+                                <tr>
+                                    <td>Order Tracking</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mycol2">
+                        <table class="table-1">
+                            <thead>
+                                <th>Contact Us</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="cell d-flex">
+                                        <div class="conlogo">
+                                                <img src="./assets/Location.svg" alt="location">
+                                            </div>
+                                            <div class="condetails">
+                                                123 Street Trafford, London, UK
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="cell d-flex">
+                                            <div class="conlogo">
+                                                <img src="./assets/Envelope.svg" alt="mail">
+                                            </div>
+                                            <div class="condetails">
+                                                info@companyname.com
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="cell d-flex">
+                                        <div class="conlogo">
+                                                <img src="./assets/Phone.svg" alt="phone">
+                                            </div>
+                                            <div class="condetails">
+                                                +456 789 789 001
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    </section> 
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+
+</html>
